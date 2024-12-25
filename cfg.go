@@ -16,6 +16,7 @@ type Config struct {
 	DBPort      string `mapstructure:"MYSQL_PORT"`
 	DBName      string `mapstructure:"MYSQL_DB"`
 	DBNameTest  string `mapstructure:"MYSQL_DB_TEST"`
+	AppDomain   string `mapstructure:"APP_DOMAIN"`
 	DBUrl       string
 }
 
